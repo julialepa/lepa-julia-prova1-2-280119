@@ -32,7 +32,7 @@ componentDidMount() {
       <Navbar />
       <div className="App">
       <MainNews />
-     <SecondaryNews />
+      <div>{this.state.SecondaryNewsData.map((item, index) =><SecondaryNews name={item.first_name}/>)}</div>
      </div>
      <Footer />
       </div>
