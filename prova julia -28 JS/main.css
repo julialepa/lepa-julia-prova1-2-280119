@@ -1,0 +1,13 @@
+footer {
+    background: #2d3246;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#card-text{
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
